@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'eBayFont';
+  src: url('node_modules/ebay-font/fonts/ebay-font.woff2') format('woff2'),
+       url('node_modules/ebay-font/fonts/ebay-font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'eBayFont', sans-serif;
+}
