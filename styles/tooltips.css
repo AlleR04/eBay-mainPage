@@ -1,0 +1,21 @@
+.language{
+  position: relative;
+}
+
+
+.lang-slide{
+  position: absolute;
+  width: 260%;
+  border: .3px solid rgb(207, 199, 199);
+  font-size: 17px;
+  border-radius: 12px;
+  top: 165%;
+  text-align: left;
+  padding: 19px 0px 16px 41px;
+  left: -5px;
+  opacity: 0;
+}
+
+.language:hover .lang-slide{
+  opacity: 1;
+}
